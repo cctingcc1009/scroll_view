@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scroll_view" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4oH-gh-gYQ">
+                                <rect key="frame" x="0.0" y="35" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vEG-rZ-joG">
+                                        <rect key="frame" x="0.0" y="0.0" width="2240" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="企鵝1" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-eh-DaL">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="企鵝2" translatesAutoresizingMaskIntoConstraints="NO" id="aMb-SJ-pxd">
+                                                <rect key="frame" x="140" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="偽蝸牛1" translatesAutoresizingMaskIntoConstraints="NO" id="L3a-3q-5JG">
+                                                <rect key="frame" x="280" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山1" translatesAutoresizingMaskIntoConstraints="NO" id="1VR-Rm-hP3">
+                                                <rect key="frame" x="420" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="幽靈1" translatesAutoresizingMaskIntoConstraints="NO" id="A3K-f7-cko">
+                                                <rect key="frame" x="560" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="札尾蝦" translatesAutoresizingMaskIntoConstraints="NO" id="Pv1-PC-SGr">
+                                                <rect key="frame" x="700" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="果部1" translatesAutoresizingMaskIntoConstraints="NO" id="jSn-f1-vhz">
+                                                <rect key="frame" x="840" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="灰塵1" translatesAutoresizingMaskIntoConstraints="NO" id="8GU-1v-h70">
+                                                <rect key="frame" x="980" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸豬排2" translatesAutoresizingMaskIntoConstraints="NO" id="mH1-eU-NKO">
+                                                <rect key="frame" x="1120" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珍珠1" translatesAutoresizingMaskIntoConstraints="NO" id="m5w-DY-3CW">
+                                                <rect key="frame" x="1260" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="白熊2" translatesAutoresizingMaskIntoConstraints="NO" id="YCN-D1-hDc">
+                                                <rect key="frame" x="1400" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="睇數1" translatesAutoresizingMaskIntoConstraints="NO" id="44Z-eI-Wqb">
+                                                <rect key="frame" x="1680" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="蜥蜴1" translatesAutoresizingMaskIntoConstraints="NO" id="Ap7-XS-Mjv">
+                                                <rect key="frame" x="1820" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓2" translatesAutoresizingMaskIntoConstraints="NO" id="Q9l-2M-yV2">
+                                                <rect key="frame" x="1960" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的蜥蜴1" translatesAutoresizingMaskIntoConstraints="NO" id="GjY-BV-SCa">
+                                                <rect key="frame" x="1540" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麻雀1" translatesAutoresizingMaskIntoConstraints="NO" id="gze-EV-46l">
+                                                <rect key="frame" x="2100" y="0.0" width="120" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="8KB-zs-3oS"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="2240" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u89-jH-Yc4">
+                                <rect key="frame" x="0.0" y="183" width="375" height="484"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXp-Ct-hED">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="9000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假企鵝" translatesAutoresizingMaskIntoConstraints="NO" id="v9a-Fv-6RB">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假蜥蜴" translatesAutoresizingMaskIntoConstraints="NO" id="rma-QJ-6ee">
+                                                <rect key="frame" x="0.0" y="500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="假蝸牛" translatesAutoresizingMaskIntoConstraints="NO" id="3gX-eN-tov">
+                                                <rect key="frame" x="0.0" y="1000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="地鼠" translatesAutoresizingMaskIntoConstraints="NO" id="erB-np-UGB">
+                                                <rect key="frame" x="0.0" y="1500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="山" translatesAutoresizingMaskIntoConstraints="NO" id="5WP-vL-P7Q">
+                                                <rect key="frame" x="0.0" y="2000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="幽靈" translatesAutoresizingMaskIntoConstraints="NO" id="zMB-9I-hBd">
+                                                <rect key="frame" x="0.0" y="2500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="灰塵" translatesAutoresizingMaskIntoConstraints="NO" id="fzs-OS-av3">
+                                                <rect key="frame" x="0.0" y="3000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸蝦尾" translatesAutoresizingMaskIntoConstraints="NO" id="6ia-cb-Gle">
+                                                <rect key="frame" x="0.0" y="3500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="炸豬排" translatesAutoresizingMaskIntoConstraints="NO" id="U9o-eE-7Fg">
+                                                <rect key="frame" x="0.0" y="4000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="珍珠" translatesAutoresizingMaskIntoConstraints="NO" id="8B1-OH-Efh">
+                                                <rect key="frame" x="0.0" y="4500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="白熊" translatesAutoresizingMaskIntoConstraints="NO" id="Zzx-Xt-Xao">
+                                                <rect key="frame" x="0.0" y="5000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的企鵝" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-ko-CVX">
+                                                <rect key="frame" x="0.0" y="5500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="真正的蜥蜴" translatesAutoresizingMaskIntoConstraints="NO" id="GfZ-a3-2Bt">
+                                                <rect key="frame" x="0.0" y="6000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="裹布" translatesAutoresizingMaskIntoConstraints="NO" id="Owi-zC-Bia">
+                                                <rect key="frame" x="0.0" y="6500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓" translatesAutoresizingMaskIntoConstraints="NO" id="NqR-lN-k4f">
+                                                <rect key="frame" x="0.0" y="7000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="貓頭鷹" translatesAutoresizingMaskIntoConstraints="NO" id="RXU-R6-vpx">
+                                                <rect key="frame" x="0.0" y="7500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雜草" translatesAutoresizingMaskIntoConstraints="NO" id="V8d-v7-UNh">
+                                                <rect key="frame" x="0.0" y="8000" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麻雀" translatesAutoresizingMaskIntoConstraints="NO" id="xjn-4h-StV">
+                                                <rect key="frame" x="0.0" y="8500" width="375" height="400"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.9798670411" green="0.83091813329999997" blue="0.82116705180000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <viewLayoutGuide key="safeArea" id="kaX-oy-ewk"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="9000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-418.39999999999998" y="784.85757121439292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="企鵝1" width="193" height="193"/>
+        <image name="企鵝2" width="193" height="193"/>
+        <image name="假企鵝" width="920" height="930"/>
+        <image name="假蜥蜴" width="920" height="930"/>
+        <image name="假蝸牛" width="920" height="930"/>
+        <image name="偽蝸牛1" width="193" height="193"/>
+        <image name="地鼠" width="920" height="930"/>
+        <image name="山" width="920" height="930"/>
+        <image name="山1" width="193" height="193"/>
+        <image name="幽靈" width="920" height="930"/>
+        <image name="幽靈1" width="193" height="193"/>
+        <image name="札尾蝦" width="193" height="193"/>
+        <image name="果部1" width="193" height="193"/>
+        <image name="灰塵" width="920" height="930"/>
+        <image name="灰塵1" width="193" height="193"/>
+        <image name="炸蝦尾" width="920" height="930"/>
+        <image name="炸豬排" width="920" height="930"/>
+        <image name="炸豬排2" width="193" height="193"/>
+        <image name="珍珠" width="920" height="930"/>
+        <image name="珍珠1" width="193" height="193"/>
+        <image name="白熊" width="920" height="930"/>
+        <image name="白熊2" width="193" height="193"/>
+        <image name="真正的企鵝" width="920" height="930"/>
+        <image name="真正的蜥蜴" width="920" height="930"/>
+        <image name="真正的蜥蜴1" width="193" height="193"/>
+        <image name="睇數1" width="193" height="193"/>
+        <image name="蜥蜴1" width="193" height="193"/>
+        <image name="裹布" width="920" height="930"/>
+        <image name="貓" width="920" height="930"/>
+        <image name="貓2" width="193" height="193"/>
+        <image name="貓頭鷹" width="920" height="930"/>
+        <image name="雜草" width="920" height="930"/>
+        <image name="麻雀" width="920" height="930"/>
+        <image name="麻雀1" width="193" height="193"/>
+    </resources>
+</document>
